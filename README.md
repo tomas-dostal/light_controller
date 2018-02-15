@@ -10,6 +10,7 @@ You could be able to build an example project using this manual. With this you a
   - 4* LEDs
   - 4 buttons
   - Same number of controlled lights and switches! 
+  ![Schematic](https://github.com/tomas-dostal/light_controller/blob/master/light_controller_v1.png)
 
 ### Dependiences installation
 
