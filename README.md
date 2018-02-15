@@ -9,6 +9,7 @@ You could be able to build an example project using this manual. With this you a
   - 8* 220 ohm resistor
   - 4* LEDs
   - 4 buttons
+  - Same number of controlled lights and switches! 
 
 ### Dependiences installation
 
@@ -32,6 +33,21 @@ const char* password = "PASSWORD";  // PW of the network you want to connenct to
 int button[] = {D0, D1, D2, D3};  // HW buttons
 int lights[] = {D5, D6, D7, D8};  // HW lights
 ```
+Also you need to add as many colums how much lights you have in following code: 
+```c
+// for 4 lights and 4 buttons
+int now_light[] = {0, 0, 0, 0};
+int required_light[] = {128, 128, 128, 128};
+
+int now_button[] = {LOW, LOW, LOW, LOW};
+int last_button[] = {LOW, LOW, LOW, LOW};
+```
+```
+// for 5 lights
+int now_light[] = {0, 0, 0, 0, 0};
+...
+```
+
 
 ### First start
 
