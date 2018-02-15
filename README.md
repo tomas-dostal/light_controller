@@ -91,8 +91,9 @@ http://192.168.0.40/light[2]=0 // turns of light number 2
 -  Also, you need an app you can write on NFC tags with. See [this one (Android only)](https://play.google.com/store/apps/details?id=com.wakdev.wdnfc)
 -  You should write on the tag a URL address to control it. These addresses were already mentioned a few lines ago. 
 > After successful writing just approach your tag to your phone.
-> You should be connected to the same Wi-Fi. 
+> You should be connected to the same Wi-Fi.
 
+[Youtoube video](https://youtu.be/nTlXOTvhRiI)
 
 #### WWW interface
 You can also control lights using a web interface with buttons. 
