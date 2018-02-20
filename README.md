@@ -3,6 +3,7 @@ This is a project for controlling lights using ESP8266
 You could be able to build an example project using this manual. With this you are able to:
   - Control LED using LAN (through Wi-Fi)
   - Control LED using hardware button
+  - (Comming soon) Control LED with server running on a Wi-FI Access Point 
   
 ### Requirements (for basic testing project)
   - board with ESP8266
