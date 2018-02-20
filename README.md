@@ -11,7 +11,14 @@ You could be able to build an example project using this manual. With this you a
   - 4 buttons
   - Same number of controlled lights and switches! 
   ![Schematic](https://github.com/tomas-dostal/light_controller/blob/master/light_controller_v1.png)
+  
 
+In case you need to switch higer current (use following schematic, but...): 
+  - Connect GND of source to the GND of the development board
+  - Connect wire from transistor to the light's pin 
+  - -> int lights[] = {D5, D6, D7, D8};  // HW lights
+  ![Schematic](https://github.com/tomas-dostal/light_controller/blob/master/NPN_highpower_switch.png)
+> Note: 3,4V power source and the blue switch simulates arduino pin (turn on/turn off)
 ### Dependiences installation
 
 To install this code on an ESP8266 board you need to have:
