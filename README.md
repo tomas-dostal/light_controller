@@ -19,6 +19,7 @@ In case you need to switch higer current (use following schematic, but...):
   - -> int lights[] = {D5, D6, D7, D8};  // HW lights
   ![Schematic](https://github.com/tomas-dostal/light_controller/blob/master/NPN_highpower_switch.png)
 > Note: 3,4V power source and the blue switch simulates arduino pin (turn on/turn off)
+> More or less it is the same as [this schematic](https://en.wikipedia.org/wiki/Transistor#Transistor_as_a_switch)
 ### Dependiences installation
 
 To install this code on an ESP8266 board you need to have:
