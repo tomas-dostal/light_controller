@@ -12,8 +12,8 @@
 
 // ----------------------  EDIT THIS BEFORE START! ----------------------
 
-const char* ssid = "Dostalovi_UPC_2.4GHz";  // SSID of the network you want to connenct to
-const char* password = "Dostalovipriv@te";  // PW of the network you want to connenct to
+const char* ssid = "SSID";  // SSID of the network you want to connenct to
+const char* password = "PASSWORD";  // PW of the network you want to connenct to
 int button[] = {D0, D1, D2, D3};  // HW buttons
 int lights[] = {D5, D6, D7, D8};  // HW lights
 
